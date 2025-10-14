@@ -14,13 +14,34 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </header>
-    <footer>
-        <ul>
-            <li>Armenia,Tavush,Getahovit</li>
-            <li><a href="mail to:blog@blog.blog">blog@blog.blog</a></li>
-            <li><a href="tel: +3741111111">+3741111111</a></li>
-        </ul>
-    </footer>
+        <main>
+    <section class="contact-form">
+      <h2>Կապ մեզ հետ</h2>
+      <form action="#" method="post">
+        <label for="fullname">Անուն Ազգանուն:</label>
+        <input type="text" id="fullname" name="fullname" required />
+
+        <label for="phone">Հեռախոսահամար:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="age">Տարիք:</label>
+        <input type="number" id="age" name="age" required />
+
+        <label for="email">Էլ. հասցե:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label>Սեռ:</label>
+        <div class="gender">
+          <label><input type="radio" name="gender" value="male" required /> Արական</label>
+          <label><input type="radio" name="gender" value="female" required /> Իգական</label>
+        </div>
+
+        
+
+        <button type="submit">Ուղարկել</button>
+      </form>
+    </section>
+  </main>
     
 </body>
 </html>
