@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
 }
 
-/* Header */
+
 header {
   background-color: #044913;
   padding: 15px 30px;
@@ -34,7 +34,7 @@ header ul li a {
   font-size: 18px;
 }
 
-/* News Container */
+
 .news-container {
   display: flex;
   flex-wrap: wrap;
@@ -72,7 +72,7 @@ header ul li a {
   color: #555;
 }
 
-/* Responsive */
+
 @media (max-width: 921px) {
   .news-item {
     flex: 1 1 calc(50% - 20px); 
