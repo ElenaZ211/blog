@@ -1,16 +1,19 @@
 body {
-  background-color: rgb(5, 66, 18);
+  /* background-color: rgb(5, 66, 18); */
   margin: 0;
   font-family: sans-serif;
+  background-color: red;
+  background-image: conic-gradient(red,yellow,green,blue,black);
 }
 
-/* Header */
+
 header {
   background-color: #044913;
   padding: 15px 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 15px 0;
   color: white;
 }
 
@@ -34,7 +37,7 @@ header ul li a {
   font-size: 18px;
 }
 
-/* News Container */
+
 .news-container {
   display: flex;
   flex-wrap: wrap;
@@ -42,6 +45,7 @@ header ul li a {
   padding: 20px;
   justify-content: center;
 }
+
 
 .news-item {
   flex: 1 1 calc(25% - 20px); 
@@ -72,7 +76,7 @@ header ul li a {
   color: #555;
 }
 
-/* Responsive */
+
 @media (max-width: 921px) {
   .news-item {
     flex: 1 1 calc(50% - 20px); 
@@ -87,3 +91,20 @@ header ul li a {
   object-fit: cover;
 }
 .class_container {display:flex;}
+
+
+/* The animation code */
+@keyframes myAnimation {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+.aa {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
