@@ -1,9 +1,8 @@
 body {
-  /* background-color: rgb(5, 66, 18); */
+   background-color: rgb(5, 66, 18); 
   margin: 0;
   font-family: sans-serif;
-  background-color: red;
-  background-image: conic-gradient(red,yellow,green,blue,black);
+
 }
 
 
